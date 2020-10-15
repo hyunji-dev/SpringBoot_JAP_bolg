@@ -15,4 +15,9 @@ public class TestController {
 	public String home() {
 		return "<h1>home</h1>";
 	}
+	
+	@GetMapping("/test/admin")
+	public String admin() {
+		return "<h1>admin</h1>";
+	}
 }
